@@ -54,7 +54,7 @@ i = 0
 
 while i < directors_names.length do
   directors_name = directors_names[i]
-  total += total_earnings[directors_names]
+  total += total_earnings[directors_name]
   i += 1
 end
 
