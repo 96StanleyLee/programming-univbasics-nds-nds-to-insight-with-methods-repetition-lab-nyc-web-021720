@@ -50,10 +50,10 @@ total_earnings = directors_totals(source)
 directors_names = list_of_directors(source)
 
 total = 0
-i = 0 
+i = 0
 
 while i < directors_names.length do
-  directors_names = directors_names[i]
+  directors_name = directors_names[i]
   total += total_earnings[directors_names]
   i += 1
 end
